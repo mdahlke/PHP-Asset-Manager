@@ -9,7 +9,7 @@
             "email": "mdahlke@wisnet.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable+",
     "require": {
         "php": "^5.6.0 || ^7.0"
     },
@@ -18,5 +18,10 @@
             "AssetManager": "src/"
         }
     },
-    "repository": "https://github.com/mdahlke/PHP-Asset-Manager"
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:mdahlke/PHP-Asset-Manager.git"
+        }
+    ]
 }
